@@ -102,7 +102,7 @@ async function makeRequest() {
 
 
 console.log("çalıştım");
-var botcode = "704307652:AAHOJAXj6HmRMAVUP0enGzY46XkCX1PUXtE"
+var botcode = "Token"
 const bot = new Telegraf(botcode)
 bot.start((ctx) => ctx.reply('Welcome ben yılmaz'))
 bot.help((ctx) => ctx.reply('Send me a sticker'))
